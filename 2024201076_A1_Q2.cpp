@@ -137,6 +137,8 @@ int main(int argc, char* argv[]){
 
     if(bytes_read == n_info.st_size)
         cout<<"Whether file contents are reversed in newfile: Yes\n";
+    else
+        cout<<"Whether file contents are reversed in newfile: No\n";
 
 
 
